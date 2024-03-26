@@ -1,0 +1,30 @@
+{
+    "scripts": {
+        "test": "jest"
+    },
+    "compilerOptions": {
+        "target": "es2019",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "lib": [
+            "es2015"
+        ],
+        "strict": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules/@types/react/**/*",
+        "node_modules/@types/scheduler/**/*"
+    ],
+    "devDependencies": {
+        "@types/jest": "^29.5.12",
+        "@types/prop-types": "^15.7.12",
+        "@types/react": "^18.2.70",
+        "@types/scheduler": "^0.16.8",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.1.2"
+    }
+}
