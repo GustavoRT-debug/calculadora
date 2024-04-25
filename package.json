@@ -1,6 +1,7 @@
 {
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "test:unit": "jest"  // Adicionando o script para testes unitários
     },
     "compilerOptions": {
         "target": "es2019",
