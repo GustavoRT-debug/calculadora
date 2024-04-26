@@ -1,7 +1,8 @@
 {
     "scripts": {
         "test": "jest",
-        "test:unit": "jest"
+        "test:unit": "jest",
+        "build": "tsc"
     },
     "compilerOptions": {
         "target": "es2019",
