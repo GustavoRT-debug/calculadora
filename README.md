@@ -1,3 +1,4 @@
+![Workflow Status](https://github.com/GustavoRT-debug/C214-LAB/actions/workflows/main.yml/badge.svg)
 # Calculadora Básica e Testes Unitários
 
 Este repositório contém uma implementação simples de uma calculadora básica em TypeScript, juntamente com testes unitários usando Jest.
